@@ -1,0 +1,13 @@
+[package]
+name = "dice_lib"
+version = "0.1.0"
+authors = ["hunterlester <guilfordhunter@gmail.com>"]
+
+[dependencies]
+rand = "0.3"
+rustc-serialize = "0.3"
+libc = "0.2"
+
+[lib]
+name = "dice"
+crate-type = ["dylib"]
